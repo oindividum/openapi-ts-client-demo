@@ -9,16 +9,7 @@ openapi-ts-client-demo/
 ├── node_modules/
 │
 ├── src/
-│   └── index.ts
-│
-└── clients/
-    └── ts-fetch/
-        ├── .openapi-generator/
-        ├── apis/
-        ├── models/
-        ├── runtime.ts
-        ├── .openapi-generator-ignore
-        └── index.ts (если есть)
+  └── index.ts
 ```
 
 ---
@@ -32,7 +23,3 @@ openapi-ts-client-demo/
 - **node_modules/** — установленные библиотеки.
 
 ---
-
-## **src/** — основной код
-- **index.ts** — пример использования сгенерированного клиента:  
-  импорт API‑классов, создание конфигурации, вызов методов (`getUsers()` и т.д.).
