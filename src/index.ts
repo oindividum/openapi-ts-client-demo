@@ -7,8 +7,6 @@ async function main() {
   });
 
   const userApi = new UserApi(config);
-  const taskApi = new TaskApi(config);
-
   const users = await userApi.getUsers();
   console.log("Users:", users);
 }

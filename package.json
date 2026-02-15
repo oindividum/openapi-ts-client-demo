@@ -5,13 +5,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:api": "rimraf clients/ts-fetch && npx openapi-generator-cli generate -i ./api.yaml -g typescript-fetch -o ./clients/ts-fetch",
+    "build": "npm run generate:api"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.28.3",
+    "rimraf": "^6.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
   }
 }
