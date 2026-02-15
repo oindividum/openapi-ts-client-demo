@@ -6,7 +6,6 @@ openapi-ts-client-demo/
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
-├── node_modules/
 │
 ├── src/
   └── index.ts
@@ -20,6 +19,5 @@ openapi-ts-client-demo/
 - **package.json** — конфигурация проекта, зависимости, скрипты.  
 - **package-lock.json** — фиксирует версии зависимостей.  
 - **tsconfig.json** — настройки TypeScript.  
-- **node_modules/** — установленные библиотеки.
 
 ---
